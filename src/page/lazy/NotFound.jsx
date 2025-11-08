@@ -5,7 +5,7 @@ return (
 <Container className="min-vh-100 d-flex align-items-center">
 <div className="justify-content-center">
 <p>
-<h1>Error 404 ไม่พบหนhkouh</h1>
+<h1>Error 404 ไม่พบหน้า</h1>
 </p>
 <Button as={Link} to="/" variant="primary">
 ไปหน้าหลัก

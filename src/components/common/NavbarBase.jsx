@@ -14,8 +14,8 @@ function NavbarComponent() {
             </Nav.Link>
             <Nav.Link as={Link} to="/customer">ข้อมูลลูกค้า</Nav.Link>
             <NavDropdown title="ข้อมูลสินค้า" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">กระเป๋า</NavDropdown.Item>
-              <NavDropdown.Item href="#">รองเท้า</NavDropdown.Item>
+              <NavDropdown.Item href="/products/bag">กระเป๋า</NavDropdown.Item>
+              <NavDropdown.Item href="/products/shoe">รองเท้า</NavDropdown.Item>
             </NavDropdown>
               <Nav.Link as ={Link} to="/about">เกี่ยวกับ</Nav.Link>
           </Nav>
