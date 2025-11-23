@@ -204,7 +204,7 @@ export default function Customer() {
         <Container className="p-4">
             <Card>
                 <Card.Header>
-                    <Button variant="primary" onClick={(e)=>[handleShow(),resetCustomerForm()]}>เพิ่มข้อมูล</Button>
+                    <Button variant="success" onClick={(e)=>[handleShow(),resetCustomerForm()]}>เพิ่มข้อมูล</Button>
                     <Modal
                         show={show}
                         onHide={handleClose}
